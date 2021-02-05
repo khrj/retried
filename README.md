@@ -55,7 +55,9 @@ const operation = retry.operation({
 
 ## API
 
-See https://doc.deno.land/https/deno.land/x/retried@1.0.0/mod.ts
+See:
+- https://doc.deno.land/https/deno.land/x/retried@1.0.0/lib/retried.ts and
+- https://doc.deno.land/https/deno.land/x/retried@1.0.0/lib/retryOperation.ts
 
 ## License
 
