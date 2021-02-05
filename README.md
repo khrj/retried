@@ -10,7 +10,7 @@ The example below will retry a potentially failing `fetch` operation
 means the last attempt is made after `17 minutes and 3 seconds` .
 
 ```ts
-import * as retried from 'https://deno.land/x/retried@1.0.0/mod.ts'
+import * as retried from 'https://deno.land/x/retried@1.0.1/mod.ts'
 
 function faultTolerantFetch(address: string): Promise<Response> {
     return new Promise((resolve, reject) => {
@@ -56,8 +56,8 @@ const operation = retry.operation({
 ## API
 
 See:
-- https://doc.deno.land/https/deno.land/x/retried@1.0.0/lib/retried.ts and
-- https://doc.deno.land/https/deno.land/x/retried@1.0.0/lib/retryOperation.ts
+- https://doc.deno.land/https/deno.land/x/retried@1.0.1/lib/retried.ts and
+- https://doc.deno.land/https/deno.land/x/retried@1.0.1/lib/retryOperation.ts
 
 ## License
 
